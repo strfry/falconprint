@@ -1,0 +1,6 @@
+[submodule "libnifalcon"]
+	path = libnifalcon
+	url = https://github.com/strfry/libnifalcon
+[submodule "GPX"]
+	path = GPX
+	url = https://github.com/markwal/GPX
