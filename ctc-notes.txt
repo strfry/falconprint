@@ -1,0 +1,41 @@
+G1 X?? Y??: Move to position (asynchronous)
+Buffer Overflow can occur with to many pending commands
+
+MakerBot firmware does not support G2/G3 (arc commands)
+
+G28:
+home all axis
+?? not responding after this?? ---> set all G1 axis X Y Z (not sure)
+	?? locks if z==0?
+Y axis not centered
+
+G161/G162:
+alternative way to home axis
+can specify direction and feedrate
+
+
+home z-axis:
+G161 Z
+G92 Z0
+
+
+
+
+G21; set units to mm
+* seems to be default
+
+
+
+G92:
+Reset 0 point
+! GPX complains if not all axis set??
+
+
+G161:
+Drive Axis to minimum
+! Use with Z, or it may drive out of range
+
+
+
+M104 S242 T0; set nozzle heater to first layer temperature
+
